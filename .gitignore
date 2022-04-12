@@ -1,4 +1,13 @@
+#Bulk Files
 package-lock.json
-.env
 node_modules
+#Envirnoment Variables
+.env
+
+#Testing files
+src/commands/owner
+src/commands/test
+
+#Testing utility functions
+utils/
 

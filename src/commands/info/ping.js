@@ -11,8 +11,8 @@ module.exports = {
      */
     
     run: async (client, message, args) => {
-
-        client.createMessage(message.channel.id, {content:`Pong`})
+      await message.channel.createMessage('Pong!')
+        // client.createMessage(message.channel.id, {content:`Pong`})
         
     },
 };

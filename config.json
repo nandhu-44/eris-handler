@@ -1,5 +1,3 @@
 {
-    "token": "use env for token",
-    "prefix": "?",
-    "mongooseConnectionString": ""
+    "prefix": "?"
 }

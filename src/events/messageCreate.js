@@ -1,11 +1,11 @@
-const client = require("../index");
+const { client } = require("../index");
 
 client.on("messageCreate", async (message) => {
     if(message.author.bot) return;
-    if (!message.content.toLowerCase().startsWith(client.config.prefix)) return;
+    if (!message.content.toLowerCase().startsWith(config.prefix)) return;
 
     const [cmd, ...args] = message.content
-        .slice(client.config.prefix.length)
+        .slice(config.prefix.length)
         .trim()
         .split(/ +/g);
 
