@@ -20,7 +20,7 @@ const globPromise = promisify(glob);
     });
     console.log('🧭  Loaded all commands! ');
 
-    // Events
+    // Loading Events
     const eventFiles = await globPromise(`${process.cwd()}/src/events/*.js`);
     eventFiles.map((value) => {
          require(value);

@@ -22,10 +22,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/nandhu-44/eris.git"
+    "url": "git+https://github.com/nandhu-44/eris-handler.git"
   },
   "bugs": {
-    "url": "https://github.com/nandhu-44/eris/issues"
+    "url": "https://github.com/nandhu-44/eris-handler/issues"
   },
-  "homepage": "https://github.com/nandhu-44/eris#readme"
+  "homepage": "https://github.com/nandhu-44/eris-handler#readme"
 }

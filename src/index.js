@@ -1,5 +1,6 @@
 const { Client , Collection } = require("eris");
 const path = require("path");
+const fs = require('fs')
 require("dotenv").config({
     path: path.resolve(__dirname, "../.env"),
 })
@@ -14,9 +15,9 @@ module.exports = { client } ;
 client.commands = new Collection();
 
 
-// Initializing the project
-require("./handler/index");
-require('./mongoose')
+//Using the handler
+require("./handler/commands");
+require('./handler/mongoose')
 
 
 client.connect().catch(console.error);
